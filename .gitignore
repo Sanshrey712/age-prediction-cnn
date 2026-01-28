@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights (keep tracked)
+# models/
+
+# Data (keep tracked)
+# data/
+
+# Results (keep tracked but can be regenerated)
+# results/
