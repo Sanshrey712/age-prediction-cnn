@@ -15,11 +15,9 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 
-# Model weights (keep tracked)
-# models/
+# Model checkpoints (too large for GitHub)
+models/checkpoints/
+*.pth
 
-# Data (keep tracked)
-# data/
-
-# Results (keep tracked but can be regenerated)
-# results/
+# Keep XGBoost model (small)
+!models/xgboost_model.json
